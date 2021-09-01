@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      // project options
+      "lib":["es5", "es6", "dom"],
+      "outDir": "build",
+      "module": "esnext",
+      "target": "ES2018",
+      "declaration": true,
+      "declarationDir": "build/types",
+  
+      // Strict Checks
+      "alwaysStrict": true,
+      "allowUnreachableCode": false,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noUncheckedIndexedAccess": true, 
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "moduleResolution": "Node",
+      "allowJs": true,
+      "checkJs": false
+    },
+    "include": ["src/**/*", "index.ts"],
+    "exclude": [
+      "node_modules/**/*"
+    ]
+}
